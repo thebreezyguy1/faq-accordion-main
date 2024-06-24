@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+  font-family: "Work Sans", Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  font-size: 16px;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  --white: hsl(0, 0%, 100%);
+  --light-pink: hsl(275, 100%, 97%);
+  --grayish-purple: hsl(292, 16%, 49%);
+  --dark-purple: hsl(292, 42%, 14%);
+}
+
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: var(--light-pink);
+  display: flex;
+  align-items: center;
+}
+
+h1, h3 {
+  margin: 0;
+}
+
+h1, h3 {
+  display: inline-block;
+}
+
+h3 {
+  font-size: 18px;
+  transition: 0.3s;
+  font-weight: 700;
+}
+
+h3:hover {
+  color: var(--grayish-purple);
+}
+
+p {
+  color: var(--grayish-purple);
+  margin: 20px 0;
+}
+
+.main-container {
+  width: 320px;
+  min-width: 320px;
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.faq-container {
+  width: inherit;
+  background-color: var(--white);
+  padding: 20px 20px 0 20px;
+  border-radius: 10px;
+}
+
+.heading-container {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+}
+
+.question-container {
+  padding: 20px 0;
+  border-bottom: 1px solid var(--light-pink); 
+  cursor: pointer;
+}
+
+
+
