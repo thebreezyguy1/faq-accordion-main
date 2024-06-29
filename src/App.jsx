@@ -1,6 +1,3 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 import starImg from './assets/icon-star.svg'
 import Question from './components/Question'
@@ -8,10 +5,12 @@ import Question from './components/Question'
 function App() {
 
   return (
-    <div className="main-container">
+    <div className='main-container'>
+      <div className="header-img"></div>
       <div className="faq-container">
+      <div className="faq-inner-container">
         <div className="heading-container">
-          <img src={starImg} alt="" />
+          <img className='star-img' src={starImg} alt="" />
           <h1>FAQs</h1>
         </div>
         <div className="all-questions-container">
@@ -27,6 +26,8 @@ function App() {
         </div>
       </div>
     </div>
+    </div>
+    
 
   )
 }
