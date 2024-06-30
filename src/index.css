@@ -19,17 +19,24 @@
 
 
 body {
-  margin: 0;
   min-width: 320px;
   min-height: 100vh;
   background-color: var(--light-pink);
-  display: flex;
-  justify-content: center;
-  position: relative;
-
 }
 
-h1, h3 {
+body, .main-container, .heading-container {
+  display: flex;
+}
+
+body, .main-container {
+  justify-content: center;
+}
+
+body, .main-container, .faq-container {
+  position: relative;
+}
+
+body, h1, h3 {
   margin: 0;
 }
 
@@ -54,9 +61,6 @@ p {
 
 .main-container {
   width: 100vw;
-  position: relative;
-  display: flex;
-  justify-content: center;
 }
 
 .faq-container {
@@ -64,7 +68,6 @@ p {
   background-color: var(--white);
   margin: 145px 30px 0;
   border-radius: 10px;
-  position: relative;
 }
 
 .faq-inner-container {
@@ -72,7 +75,6 @@ p {
 }
 
 .heading-container {
-  display: flex;
   align-items: center;
   gap: 20px;
 }

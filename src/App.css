@@ -6,7 +6,7 @@
 
 .header-img {
   height: 232px;
-  width: 100%;
+  width: inherit;
   background-image: url("./assets/background-pattern-mobile.svg");
   background-repeat: no-repeat;
   background-size: cover;
